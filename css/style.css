@@ -53,6 +53,27 @@ html {
     width: 650px;
 }
 
+.btn-now {
+    font-size: 15px;
+    background-color: #c2a942;
+}
+
+.free-h3 {
+    color: #000;
+    font-size: 16px;
+}
+
+.free-p {
+    color: #808080;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.service-img {
+    font-size: 70px;
+    color: #000;
+}
+
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .model-img {
         width: 100%;
