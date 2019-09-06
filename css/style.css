@@ -140,6 +140,7 @@ html {
 .designer-body {
     background-color: #ffffff;
     box-shadow: 0px 2px 5px 0px rgba(8, 6, 89, 0.1);
+    z-index: 5;
 }
 
 .cancel-dollar {
@@ -168,25 +169,62 @@ html {
     transform: rotate(180deg);
 }
 
-
-}
 .designer-card:hover .bottom-area,
 .designer-card:hover .bottom-area-d {
     opacity: 1;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
 }
+
 .designer-card:hover .designer-body {
     box-shadow: 0px 10px 20px 0px rgba(8, 6, 89, 0.1);
 }
+
+.bg-color-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-big {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.designer-card:hover .image-big {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+}
+
+.overlay {
+    transform: translateY(-55%);
+    border-radius: 50%;
+}
+
+.designer-card:hover .overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 1;
+    z-index: -1;
+    background-color: #dbcc8f;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    transition: all 0.6s ease;
+}
+
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .model-img {
         width: 100%;
     }
-    
     .add-h1 {
         font-size: 34px;
         line-height: 40px;
     }
-    
     .add-p {
         font-size: 15px;
         line-height: 27px;
