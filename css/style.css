@@ -218,7 +218,7 @@ html {
 }
 
 .fs-design-one {
-    height: 650px;
+    height: 675px;
     width: 100%;
     background-image: url(../images/choose-1.jpg);
     background-size: cover;
@@ -235,12 +235,104 @@ html {
     background-position: center;
 }
 
+.fs-design-three {
+    background-color: #f8f9fa;
+}
+
 .fs-design-four {
     height: 300px;
     width: 100%;
     background-image: url(../images/choose-3.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.item-text {
+    font-size: 12px;
+}
+
+.item-collection {
+    font-size: 28px;
+}
+
+.item-p {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.item-text-one {
+    color: #000;
+    font-size: 12px;
+}
+
+.item-collection-one {
+    color: #000;
+    font-size: 28px;
+}
+
+.item-p-one {
+    color: #000;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.btn-shop {
+    font-size: 12px;
+    background-color: #000;
+}
+
+.men-story {
+    bottom: 40px;
+}
+
+.women-story {
+    width: 45%;
+    right: 0;
+}
+
+.offer-bg {
+    background-color: #dbcc8f;
+}
+
+.deal-h2 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.deal-span {
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+
+.time-h2 {
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.time-p {
+    font-size: 12px;
+}
+
+.nike-h2 {
+    color: #000 !important;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.small-shoes {
+    height: 150px;
+    width: 100px;
+}
+
+.cancel-money {
+    font-size: 24px;
+}
+
+.fix-money {
+    color: #000;
+    font-size: 24px;
 }
 
 @media only screen and (min-width: 320px) and (max-width:480px) {
@@ -254,5 +346,22 @@ html {
     .add-p {
         font-size: 15px;
         line-height: 27px;
+    }
+    .women-story {
+        width: 70%;
+        right: 0;
+    }
+    .nike-h2 {
+        font-size: 28px;
+    }
+    .deal-h2 {
+        font-size: 25px;
+    }
+    .time-h2 {
+        font-size: 34px;
+    }
+    .small-shoes {
+        height: 130px;
+        width: 80px;
     }
 }
