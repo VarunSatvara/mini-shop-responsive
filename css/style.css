@@ -410,6 +410,126 @@ html {
     border-radius: 50%;
 }
 
+.follow-h2 {
+    color: #000000 !important;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.follow-p {
+    color: #808080;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0px 200px !important;
+}
+
+.photo-screen {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-screen-one {
+    background-image: url(../images/gallery-1.jpg);
+}
+
+.photo-screen-two {
+    background-image: url(../images/gallery-2.jpg);
+}
+
+.photo-screen-three {
+    background-image: url(../images/gallery-3.jpg);
+}
+
+.photo-screen-four {
+    background-image: url(../images/gallery-4.jpg);
+}
+
+.photo-screen-five {
+    background-image: url(../images/gallery-5.jpg);
+}
+
+.photo-screen-six {
+    background-image: url(../images/gallery-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.app-icon {
+    height: 60px;
+    width: 60px;
+    background-color: #DBCC8F;
+    border-radius: 50%;
+    opacity: 0;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon-instagram {
+    font-size: 15px;
+}
+
+.photo-screen:hover .app-icon {
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon-awesome {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #DBCC8F;
+}
+
+.suggest-h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.suggest-p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.iconic {
+    font-size: 26px;
+}
+
+.a-list {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.help-list {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 14px;
+}
+
+.same-text-cn {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 14px;
+}
+
+.maker-icon {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 18px;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 14px;
+}
+
+.color-lib {
+    color: #dbcc8f;
+    font: size 14px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .delivery-p {
         font-size: 14px;
@@ -418,6 +538,10 @@ html {
     .delivery-text-p {
         font-size: 14px;
         line-height: 25px;
+    }
+    .follow-p {
+        font-size: 15px;
+        padding: 0px 100px !important;
     }
 }
 
@@ -457,5 +581,13 @@ html {
     .delivery-text-p {
         font-size: 14px;
         line-height: 25px;
+    }
+    .follow-h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .follow-p {
+        font-size: 15px;
+        padding: 0px 20px !important;
     }
 }
